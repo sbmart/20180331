@@ -1,0 +1,25 @@
+{
+  "name": "20180331",
+  "version": "0.0.1",
+  "description": "yet another express experiment",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbmart/20180331.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "sbmart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbmart/20180331/issues"
+  },
+  "homepage": "https://github.com/sbmart/20180331#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
