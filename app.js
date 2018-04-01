@@ -1,10 +1,12 @@
-var express = require('express');
-var app = express();
+import express from 'express'
+import graphQLHTTP from 'express-graphql'
+import schema from './schema'
 
-app.get('/', function(request, response) {
-    response.send('Hello Mama!');
-});
+const app = express();
 
-app.listen(3000, function() {
-    console.log('Listening port 3000')
-});
+app.use(graphQLHTTP({
+    schema,
+    graphiql: true
+}))
+
+app.listen(3000);
